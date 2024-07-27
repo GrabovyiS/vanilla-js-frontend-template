@@ -1,0 +1,5 @@
+# Prettier CLI ignores these by deafult, no need to include them here
+# **/.git
+# **/.svn
+# **/.hg
+# **/node_modules (if contrary not specified in config)
