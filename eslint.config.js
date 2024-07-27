@@ -19,7 +19,7 @@ export default [
   js.configs.recommended,
 
   {
-    ignores: [''],
+    ignores: ['**/dist/*'],
   },
 
   {
