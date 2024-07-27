@@ -183,3 +183,7 @@ test('Get weather returns correct weather conditions', async () => {
   const actualResult = await getWeather(mockWeatherFetch, 'moscow', 'metric');
   expect(actualResult).toEqual(expectedWeatherResult);
 });
+
+console.log(
+  'ALBL LKBFJLB LDKFB DLFBK DFLBKD FJBLDKF BJDLFKB JDLFBKJ DLFBK DLFBKJDLFBKJ DLFKBJLFKBJW:ASLDKJDS :LKJE:LKF J:DLFVN A:LKX: CX>M E<F M:SDV<M :LKWE:OI:C LK ',
+);
