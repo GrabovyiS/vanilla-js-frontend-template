@@ -1,4 +1,5 @@
-function getWeather(fetchFunction = fetch, location, units) {
+function getWeather(location, units, fetchFunction = fetch) {
+  console.log(fetchFunction);
   return fetchFunction(
     `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=${units}&elements=datetime%2Cname%2Ctemp%2Chumidity%2Cconditions&key=LH7L9BQJ8VA93UEZG77J49J3B&contentType=json`,
     { mode: 'cors' },
