@@ -32,13 +32,13 @@ export default {
       template: 'src/templates/index.html',
       title: 'Index html template',
       filename: 'index.html',
-      chunks: ['about'],
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       template: 'src/templates/about.html',
       title: 'About html template',
       filename: 'about.html',
-      chunks: ['index'],
+      chunks: ['about'],
     }),
   ],
   output: {
