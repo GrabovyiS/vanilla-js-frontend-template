@@ -5,6 +5,8 @@
   "description": "",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "deploy-pages": "git subtree push --prefix dist origin gh-pages",
+    "deploy-pages-force": "git push origin `git subtree split --prefix dist pages`:gh-pages --force",
     "build": "webpack"
   },
   "keywords": [],
