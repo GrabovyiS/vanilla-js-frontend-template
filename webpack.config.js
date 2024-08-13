@@ -10,7 +10,6 @@ export default {
     index: './src/index.js',
     about: './src/about.js',
   },
-  mode: 'development',
   module: {
     rules: [
       {
@@ -24,6 +23,12 @@ export default {
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
+      },
+      {
+        test: /\.m?js/,
+        resolve: {
+          fullySpecified: false,
+        },
       },
     ],
   },
